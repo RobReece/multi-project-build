@@ -1,0 +1,15 @@
+subprojects {
+    apply plugin: 'java'
+
+    repositories {
+        jcenter()
+    }
+
+    dependencies {
+        testImplementation("org.junit.jupiter:junit-jupiter-api:5.1.0")
+        testRuntimeOnly("org.junit.jupiter:junit-jupiter-api:5.1.0")
+        testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine:5.1.0")
+        testCompile("org.hamcrest:hamcrest-all:1.3")
+    }
+
+}

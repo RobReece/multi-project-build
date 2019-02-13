@@ -1,0 +1,4 @@
+dependencies {
+    compile project(':A_base')
+    compile project(':B_base')
+}

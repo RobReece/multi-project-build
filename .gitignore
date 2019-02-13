@@ -1,0 +1,73 @@
+# Directories #
+######################
+build/
+bin/
+out/
+.gradle/
+.svn/
+dsm/ivy
+
+# OS generated files #
+######################
+.DS_Store
+
+# IDE generated files #
+######################
+.settings/
+.classpath
+.project
+.README*
+.idea
+*.iml
+*.ipr
+*.iws
+org.eclipse.buildship.core.prefs
+*.log
+.nb-gradle/
+prpcTest.properties
+
+# binaries #
+###########
+*.zip
+*.ZIP
+*.msi
+*.dll
+*.exe
+*.tgz
+*.tar
+*.tar.gz
+*.jar
+*.JAR
+*.war
+*.PEGA
+*.ser
+*.ipa
+*.apk
+*.httpstream
+*.log.gz
+*.sar
+*.SAR
+!gradle/wrapper/*
+!dist/gradle/wrapper/*
+
+# rulesync private metadata #
+#############################
+.rulesync.private
+# vim files
+# # ###########################
+# ## swap
+[._]*.s[a-w][a-z]
+[._]s[a-w][a-z]
+# # session
+Session.vim
+# # temporary
+.netrwhist
+*~
+# # auto-generated tag files
+tags
+/core/modules-bridge/build
+/dsm/vbd/build
+
+# miscellaneous files
+alldeps.txt
+.ruby-version
