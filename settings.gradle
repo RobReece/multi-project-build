@@ -1,2 +1,3 @@
-include 'base', 'A_base', 'B_base', 'C_AB'
+include 'base', 'A_base', 'B_base', 'C_AB', 'D_A'
+include 'D_A'
 
