@@ -19,5 +19,10 @@ task noop() {
 }
 
 gradle.projectsEvaluated {
-    logger.quiet "Executing root project projectsEvaluated"
+    subprojects {
+        configurations.compile.transitive = false
+        configurations.compile.dependencies.each {
+            it.transitive = false
+        }
+    }
 }
