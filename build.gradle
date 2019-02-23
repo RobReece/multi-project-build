@@ -14,3 +14,10 @@ subprojects {
 
 }
 
+task noop() {
+    
+}
+
+gradle.projectsEvaluated {
+    logger.quiet "Executing root project projectsEvaluated"
+}
