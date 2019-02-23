@@ -18,6 +18,7 @@ task noop() {
     
 }
 
+/*
 gradle.projectsEvaluated {
     subprojects {
         configurations.compile.transitive = false
@@ -26,3 +27,4 @@ gradle.projectsEvaluated {
         }
     }
 }
+*/

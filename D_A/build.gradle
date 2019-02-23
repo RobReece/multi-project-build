@@ -1,3 +1,11 @@
+configurations {
+    compile {
+        transitive = false
+    }
+}
+
 dependencies {
-    compile project(':A_base')
+    compile(project(':A_base')) {
+        transitive = false
+    }
 }
