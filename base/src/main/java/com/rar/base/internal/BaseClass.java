@@ -2,6 +2,8 @@ package com.rar.base.internal;
 
 public class BaseClass {
     public String call() {
-        return "called BaseClass";
+        String y = "called BaseClass x";
+        return y;
     }
+    public String call2() { return "X "; }
 }

@@ -1,6 +1,10 @@
 subprojects {
     apply plugin: 'java'
 
+    tasks.withType(JavaCompile) {
+        options.incremental = true
+    }
+
     repositories {
         jcenter()
     }
@@ -21,7 +25,6 @@ task noop() {
 /*
 gradle.projectsEvaluated {
     subprojects {
-        configurations.compile.transitive = false
         configurations.compile.dependencies.each {
             it.transitive = false
         }
