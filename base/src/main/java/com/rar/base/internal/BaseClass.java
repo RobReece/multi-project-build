@@ -1,9 +1,11 @@
 package com.rar.base.internal;
 
 public class BaseClass {
+    public final static String COPYRIGHT = "pega";
+
     public String call() {
-        String y = "called BaseClass x";
-        return y;
+        String x = "called BaseClass";
+        return x;
     }
-    public String call2() { return "X "; }
+    public String call2() { return "X"; }
 }
