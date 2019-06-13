@@ -6,7 +6,7 @@ import org.apache.commons.lang3.StringUtils;
 public class A1 {
     BaseClass baseClassObject = new BaseClass();
 
-    public String call2() { return "call 2"; }
+    public String call3() { return "call 2"; }
     public String call() {
         return "called A1";
     }
